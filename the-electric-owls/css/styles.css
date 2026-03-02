@@ -158,6 +158,25 @@ footer {
 
 /* ***************** Add media query for the 588px screen ***************** */
 
+@media screen and (min-width: 588px) {
+    header .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    header ul {
+        display: flex;
+        gap: 2.75rem;
+    }
+
+    header nav {
+        align-items: center;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 980px) {
+   
+}
 /* ***************** footer ***************** */
 
 /* ***************** footer ***************** */
