@@ -104,7 +104,7 @@ thead th {
     padding-bottom: 0.6875rem;
 }
 
-table th, 
+table th,
 table td {
     width: 50%;
 }
@@ -163,6 +163,7 @@ footer {
         display: flex;
         justify-content: space-between;
     }
+
     header ul {
         display: flex;
         gap: 2.75rem;
@@ -175,8 +176,24 @@ footer {
 }
 
 @media screen and (min-width: 980px) {
-   
+    .inner-container {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between
+        ;
+    }
+
+    section {
+        width: calc((100%/2) - (2rem/2));
+    }
 }
+
+
+@media screen and (min-width: 1920px) {
+    
+    
+}
+
 /* ***************** footer ***************** */
 
 /* ***************** footer ***************** */
