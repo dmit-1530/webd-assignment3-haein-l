@@ -177,85 +177,8 @@ footer {
 }
 
 @media screen and (min-width: 980px) {
-
-    .inner-container {
-        display: flex;
-        gap: 2rem;
-        justify-content: space-between;
-    }
-
-    .inner-container section {
-        width: calc((100%/2) - (2rem/2));
-    }
+   
 }
-
-
-@media screen and (min-width: 1920px) {
-
-    main,
-    header .container,
-    footer .container {
-        width: 1720px;
-        margin: 0 auto;
-    }
-
-    .flex-container {
-        display: flex;
-        gap: 2rem;
-    }
-
-    .inner-container {
-        width: calc((200%/3) + (4rem/3));
-    }
-
-    .flex-container aside {
-        width: calc((100%/3) - (4rem/3));
-    }
-
-    aside {
-        justify-content: flex-start;
-        max-height: 21.25rem;
-        padding: 2.75rem 1rem 4.125rem 1rem;
-    }
-
-    aside .container {
-        display: block;
-    }
-
-
-    form .flex-container {
-        display: flex;
-    }
-
-    form .flex-container input[type="email"] {
-        flex:1;
-        width: auto;
-        margin-bottom: 0;
-    }
-
-    form .flex-container .btn {
-        margin-bottom: 0;
-        max-width: 10.8125rem;
-    }
-
-    aside p {
-        max-width: 32.5rem;
-    }
-
-    footer .container {
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 2rem;
-
-    }
-
-    footer p {
-        width: calc((100%/2) -(2rem/2));
-    }
-}
-
 /* ***************** footer ***************** */
 
 /* ***************** footer ***************** */
