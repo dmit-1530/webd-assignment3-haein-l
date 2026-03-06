@@ -187,7 +187,16 @@ footer {
         margin-bottom: 0;
     }
 
-    .btn {
+    form input[type="submit"] {
+        background-color: #E7E5E4;
+        border: 1 solid #A8A29E;
+    }
+
+    label {
+        margin-bottom: 0.688rem;;
+    }
+
+    form .btn {
         max-width: 10.8125rem;
     }
 
@@ -206,6 +215,10 @@ footer {
 
     .inner-container section {
         width: calc((100%/2) - (2rem/2));
+    }
+
+    aside p {
+        max-width: 35.4375rem;;
     }
 }
 
@@ -235,11 +248,6 @@ footer {
     aside {
         justify-content: flex-start;
         max-height: 21.25rem;
-        padding: 2.75rem 1rem 4.125rem 1rem;
-    }
-
-    aside .container {
-        display: block;
     }
 
     footer .container {
