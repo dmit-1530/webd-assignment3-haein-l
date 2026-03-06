@@ -179,19 +179,45 @@ footer {
     .inner-container {
         display: flex;
         gap: 2rem;
-        justify-content: space-between
-        ;
+        justify-content: space-between;
     }
 
-    section {
+    .inner-container section {
         width: calc((100%/2) - (2rem/2));
     }
 }
 
 
 @media screen and (min-width: 1920px) {
-    
-    
+
+    main,
+    header .container,
+    footer .container {
+        width: 1720px;
+        margin: 0 auto;
+    }
+
+    .flex-container {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .inner-container section,
+    .flex-container aside {
+        width: calc((100%/3) - (4rem/3));
+    }
+
+    footer .container {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    footer p {
+        width: calc((100%/2) -(2rem/2));
+    }
 }
 
 /* ***************** footer ***************** */
