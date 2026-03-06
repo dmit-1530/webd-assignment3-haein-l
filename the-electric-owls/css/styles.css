@@ -178,6 +178,7 @@ footer {
     form .flex-container {
         display: flex;
         gap: 0;
+        max-width: 34.75rem;
     }
 
     form .flex-container input[type="email"] {
