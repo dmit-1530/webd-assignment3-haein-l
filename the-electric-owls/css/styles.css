@@ -202,7 +202,10 @@ footer {
         gap: 2rem;
     }
 
-    .inner-container section,
+    .inner-container {
+        width: calc((200%/3) + (4rem/3));
+    }
+
     .flex-container aside {
         width: calc((100%/3) - (4rem/3));
     }
