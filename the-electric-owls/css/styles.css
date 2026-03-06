@@ -159,6 +159,7 @@ footer {
 /* ***************** Add media query for the 588px screen ***************** */
 
 @media screen and (min-width: 588px) {
+
     header .container {
         display: flex;
         justify-content: space-between;
@@ -176,16 +177,9 @@ footer {
 }
 
 @media screen and (min-width: 980px) {
-    .inner-container {
-        display: flex;
-        gap: 2rem;
-        justify-content: space-between;
-    }
-
-    .inner-container section {
-        width: calc((100%/2) - (2rem/2));
-    }
+   
 }
+<<<<<<< HEAD
 
 
 @media screen and (min-width: 1920px) {
@@ -223,6 +217,8 @@ footer {
     }
 }
 
+=======
+>>>>>>> 334825ee0aaf35b85e981b659dcb90bd9cdeaeba
 /* ***************** footer ***************** */
 
 /* ***************** footer ***************** */
