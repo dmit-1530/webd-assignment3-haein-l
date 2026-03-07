@@ -156,6 +156,12 @@ footer {
     padding: 4.125rem 0;
 }
 
+form input[type="submit"] {
+    background-color: #E7E5E4;
+    border: 1 solid #A8A29E;
+}
+
+
 /* ***************** Add media query for the 588px screen ***************** */
 
 @media screen and (min-width: 588px) {
@@ -187,13 +193,9 @@ footer {
         margin-bottom: 0;
     }
 
-    form input[type="submit"] {
-        background-color: #E7E5E4;
-        border: 1 solid #A8A29E;
-    }
-
     label {
-        margin-bottom: 0.688rem;;
+        margin-bottom: 0.688rem;
+        ;
     }
 
     form .btn {
@@ -218,7 +220,12 @@ footer {
     }
 
     aside p {
-        max-width: 35.4375rem;;
+        max-width: 35.4375rem;
+        ;
+    }
+
+    .btn-center {
+        justify-content: flex-start;
     }
 }
 
