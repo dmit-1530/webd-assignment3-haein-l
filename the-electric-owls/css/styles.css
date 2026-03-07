@@ -239,6 +239,10 @@ form input[type="submit"] {
         margin: 0 auto;
     }
 
+    .container {
+        padding: 0;
+    }
+
     .flex-container {
         display: flex;
         gap: 2rem;
@@ -253,8 +257,13 @@ form input[type="submit"] {
     }
 
     aside {
+        padding: 0 1rem;
         justify-content: flex-start;
         max-height: 21.25rem;
+    }
+
+    aside .container {
+        margin-top: 2.75rem;
     }
 
     footer .container {
